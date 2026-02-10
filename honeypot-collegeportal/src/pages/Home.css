@@ -201,6 +201,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-left: 5px solid #667eea;
   transition: all 0.3s ease;
+  max-height: 400px;
   max-width: 250px;
   margin: 0 auto;
 }

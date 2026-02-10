@@ -220,4 +220,102 @@ body {
     font-size: 0.95em;
   }
 
-  .panel-buttons {\n    flex-direction: column;\n  }\n\n  .panel-btn {\n    padding: 0.7rem 1rem;\n  }\n}\n\n@media (max-width: 480px) {\n  .container {\n    width: 100vw;\n    height: auto;\n    min-height: 100vh;\n  }\n\n  .left-panel {\n    width: 100%;\n    padding: 1.5rem 1rem;\n  }\n\n  .left-panel h2 {\n    font-size: 1.3em;\n    margin-bottom: 8px;\n  }\n\n  .subtitle {\n    margin: 0 0 1.2rem 0;\n    font-size: 0.9em;\n  }\n\n  .left-panel input {\n    padding: 8px;\n    margin: 8px 0;\n    font-size: 0.9em;\n    border-radius: 3px;\n  }\n\n  .forgot {\n    font-size: 0.8em;\n    margin: 8px 0;\n  }\n\n  .left-panel button {\n    padding: 8px;\n    margin: 1rem 0 0.5rem 0;\n    font-size: 0.9em;\n  }\n\n  .signup {\n    margin-top: 1rem;\n    font-size: 0.85em;\n  }\n\n  .right-panel {\n    width: 100%;\n    padding: 1.5rem 1rem;\n  }\n\n  .right-panel h1 {\n    font-size: 1.5rem;\n    line-height: 1.2;\n  }\n\n  .right-panel p {\n    font-size: 0.9em;\n    margin-bottom: 1.5rem;\n  }\n\n  .panel-buttons {\n    display: flex;\n    flex-direction: column;\n    gap: 0.5rem;\n    margin: 1.5rem 0;\n  }\n\n  .panel-btn {\n    padding: 0.6rem 0.8rem;\n    font-size: 0.85rem;\n  }\n\n  .back-home-btn {\n    padding: 0.6rem 1rem;\n    font-size: 0.85rem;\n    margin-top: 0.8rem;\n  }\n}
+  .panel-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+
+  .panel-btn {
+    padding: 0.7rem 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .panel-buttons {
+    flex-direction: column;
+  }
+
+  .panel-btn {
+    padding: 0.7rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .left-panel {
+    width: 100%;
+    padding: 1.5rem 1rem;
+  }
+
+  .left-panel h2 {
+    font-size: 1.3em;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    margin: 0 0 1.2rem 0;
+    font-size: 0.9em;
+  }
+
+  .left-panel input {
+    padding: 8px;
+    margin: 8px 0;
+    font-size: 0.9em;
+    border-radius: 3px;
+  }
+
+  .forgot {
+    font-size: 0.8em;
+    margin: 8px 0;
+  }
+
+  .left-panel button {
+    padding: 8px;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 0.9em;
+  }
+
+  .signup {
+    margin-top: 1rem;
+    font-size: 0.85em;
+  }
+
+  .right-panel {
+    width: 100%;
+    padding: 1.5rem 1rem;
+  }
+
+  .right-panel h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .right-panel p {
+    font-size: 0.9em;
+    margin-bottom: 1.5rem;
+  }
+
+  .panel-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .panel-btn {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .back-home-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+    margin-top: 0.8rem;
+  }
+}
