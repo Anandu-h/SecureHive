@@ -1,0 +1,498 @@
+.home {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 8rem 2rem;
+  text-align: center;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin: 0 0 2rem 0;
+  opacity: 0.95;
+}
+
+.cta-button {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  background-color: #ffd700;
+  color: #667eea;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+  background-color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* About Section */
+.about {
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-text p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.about-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.stat {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.stat:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.stat h3 {
+  font-size: 2.5rem;
+  color: #667eea;
+  margin: 0 0 0.5rem 0;
+}
+
+.stat p {
+  color: #666;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Achievements Section */
+.achievements {
+  padding: 5rem 2rem;
+  background-color: white;
+  clear: both;
+}
+
+.achievements h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.achievement-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.achievement-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.achievement-card h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.achievement-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Placements Section */
+.placements {
+  padding: 5rem 2rem;
+  background-color: #f8f9fa;
+  clear: both;
+  margin-top: 2rem;
+}
+
+.placements h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+  position: relative;
+  padding-bottom: 1rem;
+  display: block;
+  width: 100%;
+}
+
+.placements-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.placement-stat {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #667eea;
+  transition: all 0.3s ease;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.placement-stat:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.placement-stat h3 {
+  color: #666;
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  color: #667eea;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.placement-stat p {
+  color: #999;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Placement Breakdown */
+/* Top Recruiters Section */
+.recruiters {
+  padding: 2.5rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.recruiters h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  position: relative;
+  padding-bottom: 1rem;
+  display: block;
+  width: 100%;
+}
+
+.recruiter-logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.recruiter-card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  max-width: 140px;
+  margin: 0 auto;
+
+  height: 150px;
+  margin: 0 auto;
+}
+
+.recruiter-card:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-5px);
+  border-color: #ffd700;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .hero-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .placements-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .recruiter-logos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 1.5rem;
+    min-height: 350px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+  }
+
+  .about {
+    padding: 3rem 1.5rem;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .achievements {
+    padding: 3rem 1.5rem;
+  }
+
+  .achievements h2 {
+    font-size: 2rem;
+  }
+
+  .achievements-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .achievement-icon {
+    font-size: 2.5rem;
+  }
+
+  .achievement-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .placements {
+    padding: 3rem 1.5rem;
+  }
+
+  .placements h2 {
+    font-size: 2rem;
+  }
+
+  .placements-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .placement-stat {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .stat-value {
+    font-size: 2rem;
+  }
+
+  .recruiters {
+    padding: 2rem 1.5rem;
+  }
+
+  .recruiters h2 {
+    font-size: 2rem;
+  }
+
+  .recruiter-logos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+
+  .recruiter-card {
+    padding: 1.5rem 1rem;
+    font-size: 0.85rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    min-height: auto;
+  }
+
+  .hero {
+    padding: 2.5rem 1rem;
+    min-height: 280px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .about {
+    padding: 2rem 1rem;
+  }
+
+  .about h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-text p {
+    font-size: 0.95rem;
+  }
+
+  .achievements {
+    padding: 2rem 1rem;
+  }
+
+  .achievements h2 {
+    font-size: 1.5rem;
+  }
+
+  .achievement-icon {
+    font-size: 2rem;
+  }
+
+  .achievement-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .achievement-card h3 {
+    font-size: 1rem;
+  }
+
+  .placements {
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+  }
+
+  .placements h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .placement-stat {
+    padding: 1rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .placement-stat h3 {
+    font-size: 0.85rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .stat-value {
+    font-size: 1.8rem;
+  }
+
+  .recruiters {
+    padding: 1.5rem 1rem;
+  }
+
+  .recruiters h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .recruiter-logos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.4rem;
+  }
+
+  .recruiter-card {
+    padding: 1rem 0.8rem;
+    font-size: 0.8rem;
+    height: auto;
+  }
+}

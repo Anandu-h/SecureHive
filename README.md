@@ -36,6 +36,7 @@ Login detection in honeypot systems presents several critical challenges and haz
 - Incomplete login logs due to system crashes or network interruptions
 - Race conditions between login events and log recording
 - Timestamps may be unreliable across distributed systems
+
 - Difficult to correlate login attempts with subsequent malicious activity
 
 #### 5. **False Negatives**
